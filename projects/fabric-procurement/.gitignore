@@ -1,0 +1,17 @@
+# Публичная папка: только документация, код и синтетические примеры.
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv/
+.local-data/
+data/raw/
+data/private/
+outputs/
+*.xls
+*.xlsx
+*.xlsm
+~$*
+*.log
+.DS_Store
